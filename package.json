@@ -1,5 +1,5 @@
 {
-  "name": "gz-cz-emoji",
+  "name": "gz-cz",
   "version": "1.0.1",
   "description": "依托于commitizen的emoji提示",
   "main": "./index.js",
@@ -10,9 +10,9 @@
     "node": ">=12.20"
   },
   "keywords": [
+    "gz-cz",
     "commitizen",
     "emoji",
-    "gz-cz",
     "git",
     "commit",
     "commitizen-adapter"
@@ -28,6 +28,9 @@
     "commitizen": {
       "path": "./index.js"
     }
+  },
+  "peerDependencies": {
+    "cz-git": "^1.8.0"
   },
   "devDependencies": {
     "cz-git": "^1.8.0",

@@ -1,4 +1,4 @@
-# gz-cz-emoji
+# gz-cz
 
 依托于commitizen的emoji提示
 
@@ -10,7 +10,7 @@
 
 #### 1、安装依赖
 ```sh
-pnpm install -D gz-cz commitizen
+npm install -D gz-cz commitizen
 ```
 
 #### 2、修改 `package.json` 添加 `config` 指定使用的适配器
@@ -31,10 +31,13 @@ pnpm install -D gz-cz commitizen
 
 #### 1、安装依赖
 ```sh
-pnpm install -g gz-cz commitizen
+npm install -g gz-cz commitizen
 ```
 
 #### 2、全局配置适配器类型
 ```sh
 echo '{ "path": "gz-cz" }' > ~/.czrc
 ```
+
+## 使用截图
+![样例](./images/example.png)
