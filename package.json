@@ -1,0 +1,36 @@
+{
+  "name": "gz-cz-emoji",
+  "version": "1.0.0",
+  "description": "依托于commitizen的emoji提示",
+  "main": "./index.js",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags origin master"
+  },
+  "engines": {
+    "node": ">=12.20"
+  },
+  "keywords": [
+    "commitizen",
+    "emoji",
+    "gz-cz",
+    "git",
+    "commit",
+    "commitizen-adapter"
+  ],
+  "author": "Hb-zzZ",
+  "license": "ISC",
+  "repository": "https://github.com/Hb-zzZ/gz-cz-emoji",
+  "files": [
+    "index.js",
+    "config"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "cz-git": "^1.8.0",
+    "standard-version": "^9.5.0"
+  }
+}
