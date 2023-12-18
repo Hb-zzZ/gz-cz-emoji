@@ -29,11 +29,10 @@
       "path": "./index.js"
     }
   },
-  "peerDependencies": {
-    "cz-git": "^1.8.0"
-  },
   "devDependencies": {
-    "cz-git": "^1.8.0",
     "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "cz-git": "^1.8.0"
   }
 }

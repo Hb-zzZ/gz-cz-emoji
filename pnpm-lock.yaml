@@ -1,13 +1,11 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
-devDependencies:
+dependencies:
   cz-git:
     specifier: ^1.8.0
     version: registry.npmmirror.com/cz-git@1.8.0
+
+devDependencies:
   standard-version:
     specifier: ^9.5.0
     version: registry.npmmirror.com/standard-version@9.5.0
@@ -441,7 +439,7 @@ packages:
     name: cz-git
     version: 1.8.0
     engines: {node: '>=v12.20.0'}
-    dev: true
+    dev: false
 
   registry.npmmirror.com/dargs@7.0.0:
     resolution: {integrity: sha512-2iy1EkLdlBzQGvbweYRFxmFath8+K7+AKB0TlhHWkNuH+TmovaMH/Wp7V7R4u7f4SnX3OgLsU9t1NI9ioDnUpg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/dargs/-/dargs-7.0.0.tgz}
@@ -1594,3 +1592,7 @@ packages:
     version: 0.1.0
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
