@@ -1,6 +1,6 @@
 {
   "name": "gz-cz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "依托于commitizen的emoji提示",
   "main": "./index.js",
   "scripts": {
