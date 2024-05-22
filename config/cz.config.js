@@ -58,6 +58,11 @@ module.exports = {
       emoji: "⚡️",
     },
     {
+      value: "config",
+      name: "config:   🔧  修改配置 | Changing configuration files",
+      emoji: "🔧",
+    },
+    {
       value: "build",
       name: "build:    📦️  构建相关 | Changes that affect the build system or external dependencies",
       emoji: "📦️",
